@@ -1,0 +1,150 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.17rem;
+}
+
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-container {
+    background-image: url("./images/torshov.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;
+}
+
+.hero-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading {
+    color: #fff;
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: .5em;
+}
+
+.hero-description {
+    color: #fff;
+    background: #457B9D;
+    width: 412px;
+    border-radius: 10px;
+    padding: .25em 0;
+}
+
+/* activities section */
+
+.activities {
+    width: 720px;
+    height: 378px;
+    background-color: #F1FAEE;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 40px;
+}
+
+.activities-heading {
+    margin-top: 1.5em;
+    color: #1D3557;
+    font-size: 1.5rem;
+}
+
+.activities-container {
+    display: flex;
+}
+
+.activity-card > img {
+    border-radius: 50%;
+}
+
+.activity-title {
+    margin: 1.2em;
+    color: #1D3557;
+    font-weight: 700;
+}
+
+.activity-description {
+    padding: 0 1em .5em;
+    color: #1D3557;
+}
+
+/* guide section */
+
+.guide {
+    width: 720px;
+    height: 394px;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-container {
+    width: 400px;
+    height: 294px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 #1D3557;
+}
+
+.guide-img-container {
+    width: 45%;
+    height: 248px;
+    border-radius: 10px;
+}
+
+
+
+.guide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.guide-info {
+    width: 50%;
+}
+
+.guide-info > p {
+    margin: 1.25em 0;
+}
