@@ -33,6 +33,8 @@ img {
     width: 100px;
 }
 
+/* hero section */
+
 .hero-container {
     background-image: url("./images/torshov.jpg");
     background-size: cover;
@@ -94,12 +96,13 @@ img {
 
 .activity-title {
     margin: 1.2em;
+    padding: 0 .5em;
     color: #1D3557;
     font-weight: 700;
 }
 
 .activity-description {
-    padding: 0 1em .5em;
+    padding: 0 1.25em;
     color: #1D3557;
 }
 
@@ -132,8 +135,6 @@ img {
     border-radius: 10px;
 }
 
-
-
 .guide-img {
     width: 100%;
     height: 100%;
@@ -143,6 +144,11 @@ img {
 
 .guide-info {
     width: 50%;
+    color: #1D3557;
+}
+
+.guide-info > h3 {
+    font-size: 1.5em;
 }
 
 .guide-info > p {
